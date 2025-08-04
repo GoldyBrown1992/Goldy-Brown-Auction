@@ -1,0 +1,12 @@
+{
+  "name": "goldy-browns-auction",
+  "version": "1.0.0",
+  "description": "Luxury auction platform with live countdown",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "stripe": "^13.0.0",
+    "googleapis": "^118.0.0"
+  }
+}
