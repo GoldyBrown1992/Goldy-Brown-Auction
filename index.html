@@ -543,7 +543,8 @@
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .main-title {
-                font-size: 3rem;
+                font-size: 2.5rem;
+                padding-right: 120px; /* Space for leaderboard */
             }
 
             .subtitle {
@@ -566,9 +567,24 @@
             }
 
             .leaderboard {
-                top: 10px;
+                top: 100px; /* Move below title on mobile */
                 right: 10px;
-                max-width: 250px;
+                max-width: 180px;
+                font-size: 0.85rem;
+            }
+            
+            .leaderboard.collapsed {
+                top: 20px; /* When collapsed, can be higher */
+                max-width: 100px;
+            }
+            
+            .leaderboard-title {
+                font-size: 1.2rem;
+            }
+            
+            .leaderboard-item {
+                padding: 0.3rem;
+                font-size: 0.8rem;
             }
 
             .modal-content {
