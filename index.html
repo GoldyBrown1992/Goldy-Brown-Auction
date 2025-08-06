@@ -541,64 +541,68 @@
         }
 
         /* Mobile Responsive */
-        @media (max-width: 768px) {
-            .main-title {
-                font-size: 2.5rem;
-                padding-right: 120px; /* Space for leaderboard */
-            }
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+        padding-right: 120px; /* Space for leaderboard */
+    }
 
-            .subtitle {
-                font-size: 1.5rem;
-            }
+    .subtitle {
+        font-size: 1.5rem;
+    }
 
-            .timer-section,
-            .bid-section,
-            .video-section {
-                margin: 1rem;
-            }
+    .timer-section,
+    .bid-section,
+    .video-section {
+        margin: 1rem;
+    }
 
-            .timer-display {
-                gap: 0.5rem; /* Smaller gap on mobile */
-            }
+    .timer-display {
+        gap: 0.3rem; /* Smaller gap on mobile */
+    }
 
-            .time-value {
-                font-size: 2rem;
-            }
+    .time-value {
+        font-size: 1.8rem; /* Slightly smaller */
+    }
 
-            .time-unit {
-                min-width: 70px;
-                padding: 0.5rem;
-            }
+    .time-unit {
+        min-width: 80px; /* Wider boxes */
+        padding: 0.5rem 0.2rem;
+    }
 
-            .leaderboard {
-                top: 100px; /* Move below title on mobile */
-                right: 10px;
-                max-width: 180px;
-                font-size: 0.85rem;
-            }
-            
-            .leaderboard.collapsed {
-                top: 20px; /* When collapsed, can be higher */
-                max-width: 100px;
-            }
-            
-            .leaderboard-title {
-                font-size: 1.2rem;
-            }
-            
-            .leaderboard-item {
-                padding: 0.3rem;
-                font-size: 0.8rem;
-            }
+    .time-label {
+        font-size: 0.8rem; /* Smaller text */
+    }
 
-            .modal-content {
-                padding: 1.5rem;
-            }
+    .leaderboard {
+        top: 100px; /* Move below title on mobile */
+        right: 10px;
+        max-width: 180px;
+        font-size: 0.85rem;
+    }
+    
+    .leaderboard.collapsed {
+        top: 20px; /* When collapsed, can be higher */
+        max-width: 100px;
+    }
+    
+    .leaderboard-title {
+        font-size: 1.2rem;
+    }
+    
+    .leaderboard-item {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
 
-            .video-placeholder {
-                height: 250px;
-            }
-        }
+    .modal-content {
+        padding: 1.5rem;
+    }
+
+    .video-placeholder {
+        height: 250px;
+    }
+}
     </style>
 </head>
 <body>
