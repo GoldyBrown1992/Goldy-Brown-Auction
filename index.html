@@ -148,7 +148,7 @@
             display: flex;
             justify-content: center;
             gap: 1rem;
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
         }
 
         .time-unit {
@@ -555,6 +555,10 @@
             .bid-section,
             .video-section {
                 margin: 1rem;
+            }
+
+            .timer-display {
+                gap: 0.5rem; /* Smaller gap on mobile */
             }
 
             .time-value {
